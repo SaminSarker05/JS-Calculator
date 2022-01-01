@@ -1,0 +1,49 @@
+* {
+  font-family: 'Source Code Pro', monospace;
+}
+
+body {
+  padding = 0;
+  margin = 0;
+  background-color: black;
+}
+
+.calc {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: minmax(90px, auto) repeat(5, 70px)
+}
+
+.calc button {
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid white; 
+  background-color: black;
+  color: white
+}
+
+.calc button:hover {
+  background-color: white;
+  color: black;
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1/ -1;
+  background-color: white;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.output .current {
+  font-size: 25px;
+}
