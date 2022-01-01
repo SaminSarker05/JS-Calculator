@@ -12,17 +12,17 @@ body {
 h1 {
   color: white;
   margin: auto;
-  margin-top: 30px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .calc {
   display: grid;
   align-content: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   grid-template-columns: repeat(4, 70px);
-  grid-template-rows: minmax(100px, auto) repeat(5, 70px)
+  grid-template-rows: minmax(90px, auto) repeat(5, 70px)
 }
 
 .calc button {
