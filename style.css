@@ -50,6 +50,8 @@ h1 {
   justify-content: space-around;
   padding: 10px;
   opacity: 90%;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .output .current {
